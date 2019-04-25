@@ -1,6 +1,7 @@
 # VerificationCode
 
 ### 仿滴滴获取验证码功能
+![效果](https://github.com/lintongSD/VerificationCode/blob/master/demo.png)
 
 ### 在网上找了很多例子但是或多或少都会有些小bug
 
@@ -18,5 +19,5 @@
 ![CancelActionTextField.swift](https://github.com/lintongSD/VerificationCode/blob/master/showCode0.png)
 ![代码](https://github.com/lintongSD/VerificationCode/blob/master/showCode1.png)
 
-#### 问题1: 删除验证码后再次输入光标不居中(UI细节问题), 造成问题代码有注释
+#### 问题1: 光标不居中(UI细节问题)
 ![问题产生原因](https://github.com/lintongSD/VerificationCode/blob/master/problem.png)

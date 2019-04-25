@@ -94,6 +94,8 @@ class VerificationCodeView: UIView, UITextFieldDelegate {
             let textField = CancelActionTextField.init(frame: rect)
             textField.tag = 100 + i
             textField.delegate = self
+            //防止输入时删除按钮不响应
+            textField.text = " "
             textField.textAlignment = .center
             textField.keyboardType = .numberPad
             textField.layer.masksToBounds = true
